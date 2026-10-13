@@ -64,6 +64,8 @@ td.n, th.n { text-align: right; white-space: nowrap; font-variant-numeric: tabul
 .docbox { display: grid; gap: 12px; }
 .docbox .note { margin: 0; color: var(--soft); max-width: 92ch; }
 .btn { justify-self: start; font: inherit; font-weight: 600; color: var(--accent-ink); background: var(--accent); border: 0; border-radius: 999px; padding: 8px 18px; cursor: pointer; }
+a.btn { display: inline-block; text-decoration: none; }
+.get { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0; font-size: .9rem; color: var(--soft); }
 .frame iframe { width: 100%; height: 82vh; border: 1px solid var(--line2); border-radius: 12px; background: #fff; }
 .start { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; margin: 0 0 22px; }
 .start a { display: grid; gap: 2px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); text-decoration: none; color: var(--ink); }
@@ -77,6 +79,7 @@ td.n, th.n { text-align: right; white-space: nowrap; font-variant-numeric: tabul
   <p class="eyebrow">What goes to Dan · SEOS report style · version 1</p>
   <h1>The hand-off package, as Dan will receive it</h1>
   <p class="lead">Everything in <code>seos-report-handoff-v1.zip</code>, rendered from the package files themselves: the guides, the data contract, the two expected documents, the code he runs, and every file. Nothing here is written separately from what he gets.</p>
+  <p class="get"><a class="btn" href="seos-report-handoff-v1.zip" download>Download the package</a><span><code>seos-report-handoff-v1.zip</code> · 4.2 MB · unzip it and start with its README</span></p>
   <p class="meta"><span><b>69</b> files in the zip</span><span><b>4.2 MB</b> zipped, 31.5 MB unzipped</span><span>zip sha256 <code>b2624525d1f4e529...</code></span><span>Built Oct 12, 2026</span><span>Fixture: Green Haven Industries (SEOS business 48), scrubbed: keep private</span></p>
 </header>
 <div class="layout">
